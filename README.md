@@ -25,7 +25,11 @@ Most repositories that claim to "learn Go" are graveyards of copy-pasted example
 
 **Go Deeper** exists to answer one question, over and over, at increasing depth:
 
+<<<<<<< HEAD
 > *"Do I actually understand this — or do I just recognize it?"*
+=======
+> _"Do I actually understand this — or do I just recognize it?"_
+>>>>>>> d005337 (learn: variables and scope)
 
 Every concept here is earned: written from scratch, broken on purpose, benchmarked under pressure, and documented — mistakes included — until it becomes intuition instead of memory.
 
@@ -35,6 +39,7 @@ Every concept here is earned: written from scratch, broken on purpose, benchmark
 
 These aren't guidelines. They're the operating system this repo runs on.
 
+<<<<<<< HEAD
 | Principle | What it means in practice |
 |---|---|
 | 🧠 **Understand before abstracting** | No interface is written until the concrete version is fully understood |
@@ -44,6 +49,17 @@ These aren't guidelines. They're the operating system this repo runs on.
 | 📖 **Read the standard library** | The best Go code ever written is already on your machine |
 | 🐛 **Document mistakes** | Bugs and wrong turns are logged, not hidden |
 | 🏗️ **Build production-oriented projects** | Toy examples graduate into real, deployable systems |
+=======
+| Principle                                 | What it means in practice                                              |
+| ----------------------------------------- | ---------------------------------------------------------------------- |
+| 🧠 **Understand before abstracting**      | No interface is written until the concrete version is fully understood |
+| ✍️ **Write the code from scratch**        | Copy-pasting is banned. Typing builds memory; reading doesn't          |
+| 💥 **Break things intentionally**         | Every module ships with a "how I broke it" section                     |
+| 📊 **Benchmark when performance matters** | Claims are backed by `go test -bench`, not vibes                       |
+| 📖 **Read the standard library**          | The best Go code ever written is already on your machine               |
+| 🐛 **Document mistakes**                  | Bugs and wrong turns are logged, not hidden                            |
+| 🏗️ **Build production-oriented projects** | Toy examples graduate into real, deployable systems                    |
+>>>>>>> d005337 (learn: variables and scope)
 
 ---
 
@@ -54,6 +70,10 @@ These aren't guidelines. They're the operating system this repo runs on.
 <td width="50%" valign="top">
 
 ### Language & Foundations
+<<<<<<< HEAD
+=======
+
+>>>>>>> d005337 (learn: variables and scope)
 - 🔤 Go fundamentals
 - 🧩 Data structures
 - ⚠️ Error handling
@@ -64,6 +84,10 @@ These aren't guidelines. They're the operating system this repo runs on.
 <td width="50%" valign="top">
 
 ### Systems & Scale
+<<<<<<< HEAD
+=======
+
+>>>>>>> d005337 (learn: variables and scope)
 - 🔀 Concurrency (goroutines, channels, sync)
 - 🌐 Networking
 - 🏢 Backend engineering
